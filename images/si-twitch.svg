@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48mm"
+   height="48mm"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="si-twitch.svg"
+   inkscape:export-filename="/home/jpm/Downloads/si-youtube.svg.png"
+   inkscape:export-xdpi="135.46666"
+   inkscape:export-ydpi="135.46666">
+  <defs
+     id="defs2">
+    <linearGradient
+       osb:paint="gradient"
+       id="linearGradient4595">
+      <stop
+         style="stop-color:#65459b;stop-opacity:1"
+         offset="0"
+         id="stop4605" />
+      <stop
+         style="stop-color:#670087;stop-opacity:1;"
+         offset="1"
+         id="stop4603" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4595"
+       id="radialGradient4648"
+       cx="36.563541"
+       cy="211.32623"
+       fx="36.563541"
+       fy="211.32623"
+       r="24"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.3727152"
+     inkscape:cx="60.695412"
+     inkscape:cy="74.72465"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:window-width="1364"
+     inkscape:window-height="746"
+     inkscape:window-x="1"
+     inkscape:window-y="21"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.563541,-187.32623)">
+    <circle
+       style="opacity:1;fill:url(#radialGradient4648);fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path4585"
+       cx="36.563541"
+       cy="211.32623"
+       r="23" />
+    <path
+       id="path4563"
+       style="fill:#65459b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 22.063541,216.32623 v 9.5 h 19 v -19.5 h -9 m 9,0 v -9.5 h -19 v 19.5 h 9 m 10,-19.5 h 10 v 29 h -10 z"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g7138"
+       transform="matrix(0.07845188,0,0,0.07845188,24.662428,199.70317)"
+       style="fill:#ffffff;fill-opacity:0.76470588">
+      <path
+         id="path7124"
+         d="M 215.2,260.8 H 156.5 L 117.4,300 H 78.3 V 260.8 H 6.6 V 52.2 L 26.1,0 h 267.3 v 182.6 z m 52.2,-91.2 V 26.1 H 52.2 v 189.1 h 58.7 v 39.1 L 150,215.2 h 71.7 z"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#ffffff;fill-opacity:0.76470588;fill-rule:evenodd" />
+    </g>
+    <path
+       d="m 22.063541,216.32623 v 9.5 h 19 v -19.5 h -9 m 9,0 v -9.5 h -19 v 19.5 h 9 m 10,-19.5 h 10 v 29 h -10 z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4680"
+       inkscape:connector-curvature="0" />
+  </g>
+  <style
+     id="style4965"
+     type="text/css">
+	.st0{fill:#7289DA;}
+</style>
+  <style
+     id="style5076"
+     type="text/css">
+	.st0{fill:#FF0000;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#282828;}
+</style>
+</svg>
