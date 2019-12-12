@@ -1,0 +1,154 @@
+body {
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Sans-Serif;
+}
+b, p {
+    display: inline;
+    margin: 10px 0px;
+    line-height: 24px;
+    font-size: 20px;
+}
+#header img {
+    height: 60px;
+    display: block;
+    margin: 10px;
+}
+#header {
+    background-color: #670087;
+    width: 100%;
+    float: left;
+    position: fixed;
+    z-index: 100;
+}
+img#header-intentions {
+    margin-bottom: 10px;
+}
+#header-menu {
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#header-ul {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding-right: 20px;
+}
+#header-ul a {
+    text-decoration: none;
+    color: #fff;
+}
+#header-ul li {
+    display: inline-block;
+    margin: 10px;
+}
+#header-ul h3 {
+    margin: 0px;
+    line-height: 60px;
+}
+#spacer {
+    height: 135px;
+    background-color: #323232;
+}
+#menu {
+    background-color: #dbdbdb;
+    width: 100%;
+    text-align: center;
+}
+#menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-top: solid 2px black;
+}
+#menu a {
+    text-decoration: none;
+    color: #000;
+}
+#menu li {
+    border-bottom: solid 2px black;
+}
+#menu h3 {
+    padding: 15px;
+    margin: 0px;
+}
+#content {
+    background-color: #dbdbdb;
+    text-align: center;
+}
+#feature {
+    background-color: #323232;
+    width: 100%;
+    text-align: center;
+}
+#vid-wrapper {
+    text-align: center;
+    position: relative;
+    width: 1920px;
+    padding-bottom: 55.25%;
+    max-width: 100%;
+    max-height: 20%;
+    margin: 0px auto;
+}
+#vid-wrapper > iframe {
+    position: absolute;
+    top: 0px; bottom: 0px; left: 0px; right: 0px;
+    width: 100%;
+    height: 100%;
+}
+#good-places, #bad-places, #contact-places, #support-places {
+    background-color: #dbdbdb;
+}
+#content p a {
+    color: #000;
+}
+#content h2 {
+    background: #ed4f50;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+}
+#content h3 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+}
+#content ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+}
+#content ul a {
+    text-decoration: none;
+    width: 50%;
+    color: #000;
+}
+#content li {
+    padding: 10px;
+    position: relative;
+}
+#my-work {
+    background-color: #dbdbdb;
+}
+#my-work b, #my-work p {
+    display: block;
+}
+.note {
+    background: #323232;
+    color: #fff;
+    padding: 10px;
+}
+.note a {
+    color: #fff;
+}
+#footer {
+    background: #000;
+    color: #fff;
+}

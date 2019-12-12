@@ -4,15 +4,193 @@
         <title>Sinister Intentions</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
         <meta name="author" content="Sinister Intentions">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script>
+            function visible(id) {
+                var i = document.getElementById(id);
+                i.style.display = 'inline-block';
+            }
+            function invisible(id) {
+                var i = document.getElementById(id);
+                i.style.display = 'none';
+            }
+            function toggle_visibility(id) {
+                var i = document.getElementById(id);
+                if (i.style.display == 'inline-block') {
+                    i.style.display = 'none'
+                } else {
+                    i.style.display = 'inline-block'
+                }
+            }
+        </script>
     </head>
     <body>
         <div id="header">
-            <img src="images/si-full.svg" alt="Sinister Intentions"/>
-            <h1 style="display: none;">Sinister Intentions</h1>
+            <img id="header-sinister" src="images/si-sinister.svg" alt="Sinister" style="display: block"/>
+            <img id="header-intentions" src="images/si-intentions.svg" alt="Intentions" style="display: block; margin-top: -14px;"/>
+            <img id="header-si" src="images/si.svg" alt="Sinister Intentions" style="display: none;"/>
+            <ul id="header-ul" style="display: none;">
+                <a href="about.html"><li><h3>About</h3></li></a>
+                <a href="about.html"><li><h3>Contact</h3></li></a>
+            </ul>
+            <a onclick="toggle_visibility('menu');">
+                <img id="header-menu" src="images/hamburger-menu.svg" alt="Menu"/>
+            </a>
+            <div id="menu" style="display: none;">
+                <ul id="body-ul">
+                    <a href="about.html"><li><h3>About</h3></li></a>
+                    <a href="about.html"><li><h3>Contact</h3></li></a>
+                </ul>
+            </div>
+            <script>
+                function fullheader(y) {
+                    if (intentions.style.display == 'none') {
+                        si.style.display = 'none'
+                        ul.style.display = 'none'
+                        sinister.style.display = 'block'
+                        intentions.style.display = 'block'
+                        hamburger.style.display = 'inline-block'
+                    }
+                    intentions.style.marginTop = ((-14) - y) + 'px'
+                }
+                function smallheader() {
+                    sinister.style.display = 'none'
+                    intentions.style.display = 'none'
+                    hamburger.style.display = 'none'
+                    menu.style.display = 'none'
+                    si.style.display = 'inline-block'
+                    ul.style.display = 'inline-block'
+                }
+                var menu = document.getElementById('menu')
+                var hamburger = document.getElementById('header-menu')
+                var intentions = document.getElementById('header-intentions')
+                var sinister = document.getElementById('header-sinister')
+                var si = document.getElementById('header-si')
+                var ul = document.getElementById('header-ul')
+                window.addEventListener('scroll', function handlescroll() {
+                    var y = window.scrollY;
+                    if (y < 55) {
+                        scrollPosition = y
+                        fullheader(y)
+                    } else {
+                        smallheader()
+                    }
+                })
+            </script>
+        </div>
+        <div id="spacer"></div>
+        <div id="content">
+            <div id="feature">
+                <h2>Latest Video</h2>
+                <div id="vid-wrapper">
+                    <iframe src="https://www.youtube.com/embed/On1b2TCbnUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="my-work">
+                <h2>My Work</h2>
+                <b>I am a left-wing propagandist.</b>
+                <p>That is hyperbole; as is the name of the project. I chose the term "Sinister Intentions" because "sinister" is a synonym for "left". I definitely do have leftist intentions, but I also think that it is good to be provocative to get others engaged, then disarm them with kindness and thoughtfulness until the ideas have a chance to actually land.</p>
+                <h3>What I Create</h3>
+                <p>Primarily, I'm interested in spreading skepticism about the ligitimate shortcomings of various structures that we have been living under in the West for generations then to propose alternative structures that I feel are indespensible going forward.</p>
+                <p>Some of the targets I have in mind are the structures of capitalism, colonialism and demographic heirarchies. At the moment, this is mostly packaged as video essays and flippant comments.</p>
+                <h3>How I Create It</h3>
+                <p>A somewhat unique take that I have as distinct from the majority of leftist creators online is that I have specific attitudes towards the ownership and production of my content.</p>
+                <p>Firstly, I am an advocate for free and open source software in the production and distribution of all content. I make my content strictly with GNU/Linux systems running Kdenlive, Audacity, Inkscape, GIMP, and a few other projcets.</p>
+                <p>Secondly, I do believe in "Copyleft" principals for free circulation of creative works.</p>
+                <h3>How You Can Use It</h3>
+                <p>All of my work is available under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>. You can consume it, copy it, modify it, redistribute it, package it for sale, tear it apart to take me out of context, roast me with it, or use it in any other way you choose with the only requirement being an attribution and link back to the original source content.</p>
+                <p>I endeavor to make all of the source material available in it's raw form, but feel free to contact me if you would like some assets that aren't currently available anywhere.</p>
+                <h3>Where You Can Get It</h3>
+                <p>Please see the "Good Places to Follow Me" section below if you would simply like to consume my content. I really insist that you engage with my content using these open platforms, not controlled by capitalist entities with poor business practices as are mentioned in the section below that. I still upload to those platforms in order to reach a wider audience and hopefully introduce them to open alternatives. However, if you have made it here, I hope that you will also put in the small extra effort to follow me in the preferred locations.</p>
+                <p>For now, source material for this site is available <a href="https://github.com/sinisterintentions/sinisterintentions.github.io">on GitHub</a>, and downloads are available for <a href="/projects">project files</a>, <a href="/videos">rendered videos</a>, and <a href="/code">software</a>.</p>
+            </div>
+            <div id="good-places">
+                <h2>Good Places to Follow Me</h2>
+                <ul>
+                    <a href="https://peertube.com">
+                        <li id="peertube">
+                            <img src="/images/si-peertube.svg"/>
+                            <br/>
+                            <b>Peertube</b><p> is an open, peer-to-peer video streaming platform. Like YouTube, but without Google.</p>
+                        </li>
+                    </a>
+                    <a href="https://mastodon.social">
+                        <li id="mastodon">
+                            <img src="/images/si-mastodon.svg"/>
+                            <br/>
+                            <b>Mastodon</b><p> is an open, federated microblogging platform. Like Twitter, without the company Twitter.</p>
+                        </li>
+                    </a>
+                </ul>
+                <div class="note">I also have a <a href="newsletter">Newsletter</a> with infrequent updates.</div>
+            </div>
+            <div id="bad-places">
+                <h2>Worse Places to Follow Me</h2>
+                <ul>
+                    <a href="https://youtube.com">
+                        <li id="youtube">
+                            <img src="/images/si-youtube.svg"/>
+                            <br/>
+                            <b>Youtube</b><p> is a monopolistic hosting-platform with a lack of respect for it's users and contributors.</p>
+                        </li>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <li id="twitter">
+                            <img src="/images/si-twitter.svg"/>
+                            <br/>
+                            <b>Twitter</b><p> is a steaming pile of garbage, but a steaming pile of garbage that lots of people seem to like.</p>
+                        </li>
+                    </a>
+                </ul>
+                <div class="note">I also squat on <a href="https://instagram">Instagram</a>, <a href="https://facebook.com">Facebook</a>, and <a href="https://twitch.tv">Twitch</a>. These are inactive, but the only official presence on these platforms.</div>
+            </div>
+            <div id="contact-places">
+                <h2>Places to Contact Me</h2>
+                <ul>
+                    <a href="/contact">
+                        <li>
+                            <img src="/images/si-email.svg"/>
+                            <br/>
+                            <p>My <b>Contact Form</b><p> will allow for private comments and inquiries.</p>
+                        </li>
+                    </a>
+                    <a href="https://curiouscat.com">
+                        <li>
+                            <img src="/images/si-curiouscat.svg"/>
+                            <br/>
+                            <b>Curious Cat</b><p> a platfrom which allows you to ask questions anoymously but with public replies.</p>
+                        </li>
+                    </a>
+                </ul>
+                <div class="note">I do not read comments on YouTube and will rarely engage with conversation on other platforms. You can sometimes find me on Discord servers for many other LeftTube creators.</div>
+            </div>
+            <div id="support-places">
+                <h2>Places to Support Me</h2>
+                <ul>
+                    <a href="https://www.patreon.com">
+                        <li>
+                            <img src="/images/si-patreon.svg"/>
+                            <br/>
+                            <b>Patreon</b><p> is a subscription service that allows you to provide regular financial contributions to creators.</p>
+                        </li>
+                    </a>
+                    <a href="https://youtube.com">
+                        <li>
+                            <img src="/images/si-kofi.svg"/>
+                            <br/>
+                            <b>Kofi</b><p> is a service that allows you to provide one-time financial support for creators.</p>
+                        </li>
+                    </a>
+                </ul>
+                <div class="note">Note: I am NOT seeking any money for any of my work at this time. Some people are unflapably generous so I've got these set up to funnel the money elsewhere. Please spend your money somewhere else.</div>
+            </div>
+        </div>
+        <div class="note" id="footer">
+            This website and all content contained within are a creation and copyright of Sinister Intentions. That said, you can learn more about your rights for using this site and the contained works <a href="terms">here</a>.
+        </div>
     </body>
 </html>
